@@ -22,7 +22,7 @@ ratios = {
 }
 
 base = 14
-ratio = ratios['fourth']
+ratio = ratios['majorThird']
 steps = 7
 rounded = True
 
@@ -30,5 +30,6 @@ for step in range(0, steps):
   number = base * math.pow(ratio, step)
   output = '%d: %f'
   if rounded == True:
-    output = '%d: %d'
+    number = math.floor(number)
+    output = '%d: %f'
   print output % (step + 1, number)
