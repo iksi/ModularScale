@@ -7,7 +7,7 @@ ratios = {
   'majorEleventh': 8 / 3,              # 2.667
   'majorTenth': 5 / 2,                 # 2.5
   'octave': 2 / 1,                     # 2
-  'majorSeventh': 15 / 18,             # 1.875
+  'majorSeventh': 15 / 8,              # 1.875
   'minorSeventh': 16 / 9,              # 1.778
   'majorSixth': 5 / 3,                 # 1.667
   'golden': 1 / 2 + math.sqrt(5) / 2,  # 1.618
@@ -21,8 +21,8 @@ ratios = {
   'minorSecond': 16 / 15,              # 1.067
 }
 
-base = 14
-ratio = ratios['majorThird']
+base = 20
+ratio = ratios['octave']
 steps = 7
 rounded = True
 
